@@ -12,7 +12,7 @@ function Login() {
                <input className='border rounded p-2' type="email" id='email' placeholder='Email'/>
                <label htmlFor="password">Password:</label>
                <input className='border rounded p-2' type="password" id='password' placeholder='Password'/>
-                <button className='border rounded p-2 bg-blue-800 hover:bg-blue-700 text-white'>LOGIN</button>
+                <button className='border rounded p-2 bg-blue-500 hover:bg-blue-600 text-white'>LOGIN</button>
             </form>
         </div>
     </>
