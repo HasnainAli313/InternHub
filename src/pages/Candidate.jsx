@@ -1,45 +1,4 @@
-// // import React, { useState } from 'react'
 
-// function Candidate() {
-//   // const [name, setName] = useState("");
-//   // const [email, setEmail] = useState("");
-//   // const [appliedInternship, setAppliedInternship] = useState("");
-//   // const [status, setStatus] = useState("");
-  
-//   return (
-//     <>
-//     <section className='pt-[10px]'>
-        
-//         <form action="" className='border border-black flex flex-col w-[30%] m-auto p-5 rounded gap-2'>
-//             <label htmlFor="name">Name:</label>
-//             <input className='border rounded p-[5px]' type="text" placeholder='Name' id='name' />
-//             <label htmlFor="email">Email:</label>
-//             <input className='border rounded p-[5px]' type="email" placeholder='Email' id='email' />
-//             <label htmlFor="name">Applied Internship:</label>
-//             <select className='border rounded p-[5px]' name="appliedInternship" id="appliedInternship">
-//                 <option value="frontend">Frontend Development</option>
-//                 <option value="backend">Backend Development</option>
-//                 <option value="fullStack">Full Stack Development</option>
-//             </select>
-//             <label htmlFor="status">Status:</label>
-//             <select className='border rounded p-[5px]' name="pending" id="pending">
-//                 <option value="pending">Pending</option>
-//                 <option value="accepted">Accepted</option>
-//                 <option value="rejected">Rejected</option>
-//             </select>
-//             <button className='border p-2 rounded bg-blue-500 text-white hover:bg-blue-600'>Add Candidate</button>
-//         </form>
-
-//         {/* Added Candidate */}
-//         <div>
-
-//         </div>
-//     </section>
-//     </>
-//   )
-// }
-
-// export default Candidate
 
 import React, { useState } from "react";
 
