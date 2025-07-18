@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
-import ChangePassword from "./pages/ChangePassword";
 import Candidate from "./pages/Candidate";
+import Internship from "./pages/Internship";
 
 function App(){
 
@@ -13,6 +13,7 @@ function App(){
             <Route path="/" element={<Login/>}/>
             <Route path="/profile" element={<Profile/>}/>
             <Route path="/candidate" element={<Candidate/>}/>
+            <Route path="/internship" element={<Internship/>}/>
         </Routes>
         </BrowserRouter>
         </>
