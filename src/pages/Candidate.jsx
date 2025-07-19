@@ -53,7 +53,7 @@ function Candidates() {
   };
 
   return (
-    <section className="min-h-screen p-6 border">
+    <section className="min-h-screen  p-6 border">
       <div className="mb-6 flex items-center gap-4">
         <h2 className="text-2xl font-semibold">Candidate Details</h2>
       </div>
